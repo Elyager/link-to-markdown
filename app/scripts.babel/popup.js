@@ -38,8 +38,8 @@ document.addEventListener('copy', (ev) => {
 
   if (comment) {
     markdownLink += `
-  **Comentario:** 
-   >${comment}`
+    **Comentario:** 
+    >${comment}`
   }
 
   ev.clipboardData.setData('text/plain', markdownLink);
