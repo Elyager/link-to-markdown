@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Link to Markdown",
+    "description": "Transform links to markdown format."
+  },
+  "appDescription": {
+    "message": "A extension that copy links in markdown format to the clipboard.",
+    "description": " extension that copy links in markdown format to the clipboard."
+  }
+}

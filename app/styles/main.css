@@ -1,0 +1,37 @@
+
+body {
+  padding: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.comment-area {
+ font-size: inherit;
+ margin-bottom: 10px;
+ margin-top: 10px;
+ display: block;
+}
+
+.btn {
+	margin-left: 5px;
+	border:none;
+	font-size:1em;
+	height: 1.5em;
+	color:#fff;
+	display: block;
+	outline: none;
+	outline-style: none;
+	background-color: #007CC4;
+	transition: all 0.1s ease-in;
+}
+
+.btn:focus {
+	background-color: #008FDF;
+	box-shadow: 2px 2px 5px gray;
+}
+
+.link {
+	color: #008FDF;
+	text-decoration: underline;
+	cursor: pointer;
+}
