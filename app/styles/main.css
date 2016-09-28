@@ -1,33 +1,43 @@
-
 body {
-  padding: 10px;
-  font-size: 16px;
+  font-family: Helvetica, Arial, Sans-Serif;
   line-height: 1.5;
+  font-size: 14px;
 }
 
 .comment-area {
+ border: 2px solid rgb(239,168,0);
+ outline: none;
  font-size: inherit;
  margin-bottom: 10px;
  margin-top: 10px;
  display: block;
 }
 
+.comment-area:focus {
+	box-shadow: 0 0 5px rgba(239,168,0,0.5);
+}
+
+
 .btn {
-	margin-left: 5px;
 	border:none;
+	color: white;
 	font-size:1em;
-	height: 1.5em;
-	color:#fff;
-	display: block;
+	text-decoration: none;
+	text-shadow: -1px -1px 0 #616161;
+  padding: 5px 20px;
+	box-shadow: 2px 2px 5px #666;
+	transition: all 0.3s ease;
 	outline: none;
-	outline-style: none;
 	background-color: #007CC4;
+	color:#fff;
 	transition: all 0.1s ease-in;
 }
 
-.btn:focus {
-	background-color: #008FDF;
-	box-shadow: 2px 2px 5px gray;
+.btn:focus, .btn:hover {
+	box-shadow: none;
+	text-shadow: none;
+	top: 2px;
+	left: 2sspx;
 }
 
 .link {
