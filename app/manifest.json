@@ -12,13 +12,20 @@
   "content_scripts": [
     {
       "matches": [
-        "http://*/*",
-        "https://*/*"
+        "https://*.slashdot.org/*"
+      ],
+      "js": [ "scripts/contentSlashdot.js"],
+      "run_at": "document_end",
+      "all_frames": false
+    },
+    {
+      "matches": [
+        "<all_urls>"
       ],
       "js": [ "scripts/content.js"],
       "run_at": "document_end",
       "all_frames": false
-    }
+    }    
   ],
   "background": {
     "persistent": false,
