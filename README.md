@@ -8,8 +8,8 @@ _It's WIP_
 
 **TODO's**
 - [x] Don't take only the H1 element, find the way to do custom for each match depending on the website.
-- [] Add Spanish translation in locale **_locales** folder.
-- [] Remove unnecessary code that comes with the yo generator.
+- [ ] Add Spanish translation in locale **_locales** folder.
+- [ ] Remove unnecessary code that comes with the yo generator.
 - [x] Add Icon.
 - [x] Better UI.
 - [ ] Fix resizing text area issue.
