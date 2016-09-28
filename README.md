@@ -1,10 +1,22 @@
 # Links to Markdown 
 
-Copies the H1 element and the URL of the current website given chance to add a comment before converting to a markdown format and copy to the clipboard.
+Copy titles and urls from tech news websites given a chance to add a comment.
+
+
+
+### How to use it
 
 ![extension use](https://media.giphy.com/media/l0HlAcT8fU5DxsDV6/giphy.gif)
 
-_It's WIP_
+
+The markdown format is the following:
+
+- News Title [LINK](https://gitlab.com/my-chrome-extensions/link-to-markdown)
+
+**Comentario:** 
+>This is nice!
+
+_This project is still WIP so..._
 
 **TODO's**
 - [x] Don't take only the H1 element, find the way to do custom for each match depending on the website.
