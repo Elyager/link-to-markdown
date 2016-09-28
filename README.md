@@ -2,7 +2,7 @@
 
 Copies the H1 element and the URL of the current website given chance to add a comment before converting to a markdown format and copy to the clipboard.
 
-![popup](http://i.imgur.com/6pffSPz.png)
+![extension use](https://media.giphy.com/media/l0HlAcT8fU5DxsDV6/giphy.gif)
 
 _It's WIP_
 
