@@ -1,9 +1,9 @@
 'use strict';
 
-var $btnCopy = document.getElementById('copy');
-var $inputComment = document.getElementById('comment');
-var $linkUrl = document.getElementById('linkUrl');
-var $newsTitle = document.getElementById('title');
+const $btnCopy = document.getElementById('copy');
+const $inputComment = document.getElementById('comment');
+const $linkUrl = document.getElementById('linkUrl');
+const $newsTitle = document.getElementById('title');
 
 function getCurrentTabUrl(callback) {
   let queryInfo = {
