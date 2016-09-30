@@ -20,6 +20,14 @@
     },
     {
       "matches": [
+        "https://www.kickstarter.com/projects/*"
+      ],
+      "js": [ "scripts/contentKickStarter.js"],
+      "run_at": "document_end",
+      "all_frames": false
+    },        
+    {
+      "matches": [
         "<all_urls>"
       ],
       "js": [ "scripts/content.js"],
